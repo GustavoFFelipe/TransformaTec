@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+</head>
+<body>
+    <form action="/pages/login.html">
+        <table>
+            <tr>
+                <th>Formulário de cadastro</th>
+            </tr>
+            <tr>
+                <td><label for="nome">Nome</label></td>
+                <td><input type="text" placeholder="Nome" required="true"></td>
+            </tr>
+            <tr>
+                <td><label for="sobrenome">Sobrenome</label></td>
+                <td><input type="text" placeholder="Sobrenome" required="true"></td>
+            </tr>
+            <tr>
+                <td><label for="endereco">Endereço</label></td>
+                <td><textarea name="endereco" id="endereco" cols="20" rows="2" required="true"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="disciplinas">Disciplicas</label></td>
+                <td><input type="checkbox" name="programacao" id=""><label for="programacao">Programação</label><br>
+                    <input type="checkbox" name="algoritimos"><label for="algoritimos">Algoritimos</label><br>
+                    <input type="checkbox" name="banco"><label for="banco">Banco de dados</label><br>
+                    <input type="checkbox" name="mobile"><label for="mobile">Mobile</label><br>
+                    <input type="checkbox" name="logica" id=""><label for="logica">Lógica</label>
+                
+                </td>
+            </tr>
+            <tr>
+                <td><label for="genero">Genêro</label></td>
+                <td>
+                    <input type="radio" name="masculino" id=""><label for="masculino">Masculino</label>
+                    <input type="radio" name="feminino" id=""><label for="feminino">Feminino</label>
+                    <input type="radio" name="nao-informar"><label for="nao-informar">Não informar</label>
+
+                </td>
+            </tr>
+            <tr>
+                <td><label for="idade">Idade</label></td>
+                <td><select name="idade" id="">
+                    <option value="select">Selecione</option>
+                    <option value="10-18">10 - 18</option>
+                    <option value="18-30">18 - 30</option>
+                    <option value="31 - 50">31 - 50</option>
+                    <option value="51 - 80">51 - 80</option>
+                  
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="foto">Foto de perfil</label></td>
+                <td><input type="file" name="" id=""></td>
+            </tr><br>
+            <tr>
+                <td><input type="submit" name="Enviar" id=""><input type="reset" value="Limpar"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
