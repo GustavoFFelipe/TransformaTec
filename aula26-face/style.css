@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%
+}
+body {
+    background-color: #f0f2f5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+}
+.grid-1{ 
+    width: 100%;
+    margin: auto 8rem;
+}
+.grid-1 img {
+    width: 30rem;
+    
+}
+.grid-1 p {
+    width: 50rem;
+    font-size: 2.8rem;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    margin-left: 3rem;
+}
+
+.grid-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    flex-direction: column;
+}
+.container-login{ 
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 40rem;
+    height: auto;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow:
+    0px 0.7px 2.7px rgba(0, 0, 0, 0.062),
+    0px 1.7px 6.9px rgba(0, 0, 0, 0.089),
+    0px 3.4px 14.2px rgba(0, 0, 0, 0.111),
+    0px 6.9px 29.2px rgba(0, 0, 0, 0.138),
+    0px 19px 80px rgba(0, 0, 0, 0.2)
+  ;
+
+  border-radius: 1rem;
+  
+
+
+}
+.container-login a{
+    display: flex;
+    justify-content: center;
+}
+.grid-2 form{
+    display: flex;
+    flex-direction: column;
+    margin: 1.6rem auto;
+}
+.grid-2 form input{
+    font-size: 2rem;
+    margin: .6rem 0;
+    border-radius: 1rem;
+    border: 1px solid gray;
+    padding:  1rem;
+    opacity: .6;
+}
+#btn-send {
+    margin-top: 1.2rem;
+    background-color:#297be7;
+    color: #fff;
+    font-weight: bold;
+    opacity: 1;
+
+}
+#btn-send:hover {
+    background-color: #0865df;
+    cursor: pointer;
+    transition: .5s;
+}
+.container-login a{
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    margin: 1rem auto;
+    color: #3789F4;
+    text-decoration: none;
+}
+.container-login a:hover{
+    text-decoration: underline;
+}
+
+#line {
+    border-top: 1px solid gray;
+    opacity: .5;
+    width: 99%;
+    margin: auto;
+}
+
+#create {
+    width: 60%;
+    color: #fff;
+    background-color: #36A420;
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    margin: 1.3rem auto;
+}
+#create:hover {
+    background-color: #3dbe23;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.bottom-text{
+    font-size: 2.2rem;
+    margin-bottom: 12rem;
+    color: #000;
+}
+.bottom-text a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+.bottom-text a:hover {
+    text-decoration: underline;
+}
+
+
