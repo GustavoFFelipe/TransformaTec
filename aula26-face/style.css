@@ -29,8 +29,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 8rem;
+    margin-top: 15rem;
     flex-direction: column;
+    margin-right: 10rem;
+
 }
 .container-login{ 
     width: 90%;
@@ -66,6 +68,7 @@ body {
     justify-content: center;
 }
 .grid-2 form{
+    width: 90%;
     display: flex;
     flex-direction: column;
     margin: 1.6rem auto;
@@ -106,20 +109,20 @@ body {
 #line {
     border-top: 1px solid gray;
     opacity: .5;
-    width: 99%;
+    width: 90%;
     margin: auto;
 }
 
 #create {
-    width: 60%;
+    width: 40%;
     color: #fff;
-    background-color: #36A420;
+    background-color: #4dc735;
     font-weight: bold;
     font-size: 1.6rem;
-    padding: 1.5rem;
+    padding: 1.7rem 1rem;
     border: none;
     border-radius: 1rem;
-    margin: 1.3rem auto;
+    margin: 2rem auto;
 }
 #create:hover {
     background-color: #3dbe23;
