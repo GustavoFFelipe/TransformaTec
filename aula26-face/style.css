@@ -12,7 +12,7 @@ body {
 }
 .grid-1{ 
     width: 100%;
-    margin: auto 8rem;
+    margin: auto auto;
 }
 .grid-1 img {
     width: 30rem;
@@ -29,9 +29,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15rem;
     flex-direction: column;
-    margin-right: 10rem;
+    margin: 0 auto;
+    margin-top: 15rem;
+
 
 }
 .container-login{ 
@@ -145,3 +146,97 @@ body {
 }
 
 
+@media  (max-width: 950px) {
+    .grid-1{
+        width: 40rem;
+    }
+    .grid-1 p{
+        font-size: 2rem;
+        width: 40rem;
+    }
+
+    .grid-1 img{
+        width: 30rem;
+    }
+
+    .container-login{
+        width: 30rem; 
+    }
+    .bottom-text{
+        font-size: 1.5rem;
+        width:30rem;
+    }
+}
+
+@media (max-width: 768px){
+    .grid-1 {
+        width: 20rem;
+    }
+    .grid-1 img{
+        width: 20rem;
+    }
+   .grid-1 p{ 
+        font-size: 1.5rem;
+        width: 20rem;
+   }
+
+   .grid-2{
+       width: 20rem;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+
+   }
+   .container-login{
+       width: 20rem;
+   }
+
+   #create{
+       font-size: 1.5rem;
+   }
+
+
+
+   .bottom-text{
+    font-size: 1.5rem;
+    width:30rem;
+    justify-content: center;
+}
+}
+
+@media (max-width: 450px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .grid-1 img{
+        margin: 15rem auto 5rem auto;
+    }
+    .grid-1 p{
+        display: none;
+    }
+
+    .grid-2 {
+        margin: 0 auto 10rem auto;
+        width: 30rem;
+
+    }
+    .container-login{
+        width: 25rem;
+        margin: auto ;
+    }
+    #create{ 
+        width: 80%;
+        font-size: 1.6rem;
+        padding:1rem;
+    }
+
+    .bottom-text {
+        font-size:1.5rem;
+        margin: 1rem auto 0 auto;
+    }
+
+}
