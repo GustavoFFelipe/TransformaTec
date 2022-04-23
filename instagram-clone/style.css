@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    text-decoration: none ;
+}
+body{
+    background-color:rgb(243, 243, 243);
+    width: 100vw;
+    overflow-x: hidden;
+}
+ #container{
+
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+ }
+ #phone {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 50%;
+     margin: 0 auto;
+     position: absolute;
+     left: 10%;
+     top: -8%;
+ }
+ #phone img {
+     height: 65rem;
+ }
+ #continue{
+     width: 50%;
+     position: absolute;
+     right: 0px;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+ }
+#login {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 0;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-top:2rem;
+}
+.img{
+    margin: 0 auto;
+    width: auto;
+}
+#instagram {
+    width: 15rem;
+    margin-top: 3rem;
+}
+#avatar {
+    width: 9rem;
+}
+#btn {
+    font-size: 1.5rem;
+    width: auto;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color:#0095f6;
+    color: #fff;
+    font-weight: bold;
+}
+#btn:hover{
+    font-weight: bold;
+    background-color:#0d9eff;
+    transition: .5s;
+    cursor: pointer;
+}
+#login a {
+    margin: 1.5rem auto;
+    font-size: 1.5rem;
+    color: #0095f6;
+}
+
+#change {
+    width: 60%;
+    margin: 1rem 0 0 0;
+    background-color: #fff;
+
+    border: 1px solid #ccc;
+    padding: 2rem 0;
+
+}
+#change h4{
+    width: auto;
+    margin: 1rem auto .3 auto;
+    font-size: 1.4rem;
+    text-align: center;
+}
+#change div{
+    text-align: center;
+}
+#change div a {
+    font-size: 1.4rem;
+    margin: 0 .5rem;
+    color: #0095f6;
+
+}
+#change div span {
+    font-size: 1.4rem;
+}
+.opacity {
+    opacity: .5
+}
+
+#app {
+   width: 60%;
+}
+#app h4{
+    margin: 2rem auto 1rem auto;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight:normal;
+}
+#app-img{
+    margin: 1rem auto 0 auto;
+    text-align: center;
+}
+#app-img img{
+    width: 15rem;
+    margin: 0 1rem;
+}
+
